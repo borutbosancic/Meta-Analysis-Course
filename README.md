@@ -5,19 +5,20 @@ dowload the code in R file named
 
 "Workshop meta with forrest and funnel plots.R"
 
-
+# Software requirements 
+# R 3.5.2
 
 
 alternativelly here is the full code so it can be copied directly to R
 
 
-#CODE
+# CODE
 
-# install packages
+## install packages
 install.packages(c("meta", "metafor", "tidyverse", "lattice"), 
                  repos = "https://cran.at.r-project.org/")
 
-# Standard loading
+## Standard loading
 library(meta)
 library(metafor)
 library(tidyverse)
@@ -27,9 +28,9 @@ library (lattice)
 # ls()
 # rm(list=ls())
 
-# generate data for each study / generisem podatke za svaku studiju
+## generate data for each study / generisem podatke za svaku studiju
 
-# Number of plots per each treatment
+## Number of plots per each treatment
 n = 50
 # Mean yield in general
 yield.mu = 50
